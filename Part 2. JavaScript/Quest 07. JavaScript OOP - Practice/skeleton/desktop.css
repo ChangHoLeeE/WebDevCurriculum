@@ -1,1 +1,55 @@
-/* TODO: 자유롭게 바탕화면 시스템의 CSS를 만들어 보세요! */
+
+/
+
+body {	
+	height: 100vh;
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS19pP0OSs57Suqzb0g9Zts6OF8oWt2HjVkeJpOw9IK2VsyQdx8");
+	background-size: 100% 100%
+}
+
+.icon {
+	width: 50px;
+	height: 70px;
+	padding: 5px;
+	position: absolute;
+}
+
+.icon img{
+	width: 40px;
+	height: 40px;
+	padding: 5px;
+}
+.icon p {
+	color: white;
+	text-shadow: 1px 1px 1px black;
+	text-align: center;
+	margin: 0;
+
+}
+
+.window {
+	width: 818px;
+	height: 530px;
+	position: absolute;
+	background-image: url(https://fud.community.services.support.microsoft.com/Fud/FileDownloadHandler.ashx?fid=b1d5092a-f35b-4525-bd29-8021b06ba733);
+}
+
+.window p {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 10px;
+	left : 10px;
+	background-color : blue;
+
+
+}
+.window button {
+	width: 40px;
+	height: 32px;
+	
+	position: absolute;
+	top: 5px;
+	left: 530px;
+	padding: 0;
+}}
